@@ -26,44 +26,44 @@ The preprocessing steps include:
 3. Removal of stopwords
 4. Stemming
 
-### Feature Extraction
-#### Word Cloud
+## Feature Extraction
+### Word Cloud
 Visualizing the most commonly used words in the dataset through a word cloud.
 
-#### TF-IDF
+### TF-IDF
 TF-IDF feature extraction to transform the text data into numerical features.
 
-#### Sentiment Analysis
+### Sentiment Analysis
 Using VADER sentiment analysis to extract sentiment-related features from the tweets.
 
-#### Doc2Vec
+### Doc2Vec
 Training a Doc2Vec model and extracting document vectors to represent the tweets in vector space.
 
-### Model Training and Evaluation
-#### Logistic Regression
+## Model Training and Evaluation
+### Logistic Regression
 Training and evaluating a logistic regression model for hate speech detection.
 
-#### Random Forest
+### Random Forest
 Training and evaluating a random forest classifier for hate speech detection.
 
-#### Naive Bayes
+### Naive Bayes
 Training and evaluating a Naive Bayes classifier for hate speech detection.
 
-#### Support Vector Machine (SVM)
+### Support Vector Machine (SVM)
 Training and evaluating a Support Vector Machine for hate speech detection.
 
-#### Comparison of Models
+### Comparison of Models
 Visualizing the accuracy of different models to compare their performance.
 
-### Results
+## Results
 The accuracy and performance of each model are presented in a comparison chart. The logistic regression and support vector machine models performed better than the others.
 
-### Visualization
-#### Word Cloud
+## Visualization
+### Word Cloud
 Word clouds for the entire dataset and for hate and offensive speech specifically.
 
-### Confusion Matrix
+## Confusion Matrix
 The confusion matrix helps to understand the misclassifications made by the model. It provides insights into the performance of the model by showing the true and predicted values for each class.
 
-### Conclusion
+## Conclusion
 This project demonstrates the effectiveness of various NLP techniques and machine learning models in detecting hate speech on Twitter. The results highlight the importance of feature extraction methods and model selection in achieving high accuracy and reliable performance in hate speech detection tasks.
